@@ -8,7 +8,7 @@ if(isset($_REQUEST['submit'])){
     $sql = "INSERT INTO student_data (Name, Age,Course) VALUES ('$name','$age','$course')";
     
     if (mysqli_query($con,$sql)) {
-      echo "New record created successfully";}
+      echo "New record Save successfully";}
     
 }
 
